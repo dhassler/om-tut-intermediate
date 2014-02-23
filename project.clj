@@ -11,6 +11,7 @@
                  [ring/ring "1.2.1"]
                  [org.clojure/core.async "0.1.267.0-0d7780-alpha"]
                  [om "0.5.0"]
+                 [om-sync "0.1.1"]
                  [compojure "1.1.6"]
                  [fogus/ring-edn "0.2.0"]
                  [com.datomic/datomic-free "0.9.4532"]]

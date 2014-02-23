@@ -5,7 +5,6 @@ goog.addDependency("array/array.js", ['goog.array', 'goog.array.ArrayLike'], ['g
 goog.addDependency("object/object.js", ['goog.object'], []);
 goog.addDependency("string/stringbuffer.js", ['goog.string.StringBuffer'], []);
 goog.addDependency("useragent/useragent.js", ['goog.userAgent'], ['goog.string']);
-goog.addDependency("events/eventtype.js", ['goog.events.EventType'], ['goog.userAgent']);
 goog.addDependency("dom/browserfeature.js", ['goog.dom.BrowserFeature'], ['goog.userAgent']);
 goog.addDependency("dom/tagname.js", ['goog.dom.TagName'], []);
 goog.addDependency("dom/classes.js", ['goog.dom.classes'], ['goog.array']);
@@ -13,6 +12,7 @@ goog.addDependency("math/math.js", ['goog.math'], ['goog.array', 'goog.asserts']
 goog.addDependency("math/coordinate.js", ['goog.math.Coordinate'], ['goog.math']);
 goog.addDependency("math/size.js", ['goog.math.Size'], []);
 goog.addDependency("dom/dom.js", ['goog.dom', 'goog.dom.DomHelper', 'goog.dom.NodeType'], ['goog.array', 'goog.dom.BrowserFeature', 'goog.dom.TagName', 'goog.dom.classes', 'goog.math.Coordinate', 'goog.math.Size', 'goog.object', 'goog.string', 'goog.userAgent']);
+goog.addDependency("events/eventtype.js", ['goog.events.EventType'], ['goog.userAgent']);
 goog.addDependency("disposable/idisposable.js", ['goog.disposable.IDisposable'], []);
 goog.addDependency("disposable/disposable.js", ['goog.Disposable', 'goog.dispose'], ['goog.disposable.IDisposable']);
 goog.addDependency("debug/entrypointregistry.js", ['goog.debug.EntryPointMonitor', 'goog.debug.entryPointRegistry'], ['goog.asserts']);
