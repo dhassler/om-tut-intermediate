@@ -1,0 +1,2 @@
+(use '[om-async.util])
+(init-db)
